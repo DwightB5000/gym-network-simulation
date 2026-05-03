@@ -1,0 +1,68 @@
+============================================================
+BUILDING GYM NETWORK
+============================================================
+Nodes: 175
+Total edges: 1211
+Strong ties: 1186
+Weak ties: 25
+
+============================================================
+NETWORK METRICS
+============================================================
+
+--- With Weak Ties ---
+  Density: 0.0795
+  Avg clustering: 0.3826
+  Components: 1
+  Largest component: 175 (100.0%)
+  Avg path length: 3.292
+  Avg degree: 13.84
+  Avg betweenness: 0.01325
+
+--- Strong Ties Only ---
+  Density: 0.0779
+  Avg clustering: 0.3990
+  Components: 5
+  Largest component: 35 (20.0%)
+  Avg path length: 1.629
+  Avg degree: 13.55
+  Avg betweenness: 0.00068
+
+============================================================
+DIFFUSION EXPERIMENTS
+============================================================
+
+With Weak Ties | Simple Contagion (SI):
+  Final reach: 85.1%
+  Time to 50%: 8
+
+With Weak Ties | Complex Contagion (Threshold):
+  Final reach: 7.3%
+  Time to 50%: Not reached
+
+Strong Ties Only | Simple Contagion (SI):
+  Final reach: 20.0%
+  Time to 50%: Not reached
+
+Strong Ties Only | Complex Contagion (Threshold):
+  Final reach: 8.3%
+  Time to 50%: Not reached
+
+============================================================
+PROGRESSIVE WEAK TIE REMOVAL
+============================================================
+  Removed 0%: Components=1, LCC=100.0%, Path=3.29
+  Removed 20%: Components=1, LCC=100.0%, Path=3.38
+  Removed 40%: Components=1, LCC=100.0%, Path=3.67
+  Removed 60%: Components=2, LCC=80.0%, Path=3.66
+  Removed 80%: Components=2, LCC=80.0%, Path=4.54
+  Removed 100%: Components=5, LCC=20.0%, Path=1.63
+
+============================================================
+GENERATING FIGURES
+============================================================
+Saved fig1
+Saved fig2
+Saved fig3
+Saved fig4
+Saved fig5
